@@ -1,0 +1,92 @@
+body{
+    padding: 100px;
+}
+.inner{
+    margin-top: 50px;
+
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.bank_logo{
+    
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-right: 10px;
+    
+    
+   
+}
+#t-area{
+    display: none;
+    text-align: center;
+}
+.same{
+    margin: 0  20px;
+   
+    color: aliceblue;
+    border-radius: 15px;
+
+}
+.Deposite{
+   
+    background-color: rgb(207, 26, 26);
+}
+.Withdraw{
+   
+    background-color: rgb(83, 27, 212);
+}
+.Balance{
+   
+    background-color: rgb(225, 43, 177);
+}
+.text-area{
+    float: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+.col{
+    margin-top: 20px;
+}
+
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.popup{
+    background-color: rgb(3, 2, 2);
+    align-items: center;
+    color: white;
+    padding: 0 40px 40px ;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% ,-50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.5s, top 0.4s ;
+}
+.popup img{
+    margin-top: -20px;
+    width: 100px;
+}
+.popup-open{
+    visibility: visible;
+    transform: translate(-50% ,-50%) scale(1);
+    top: 50%;
+}
+.popup button{
+     width: 100%;
+     height: 30px;
+     background-color: chartreuse;
+     cursor: pointer;
+     border-radius: 4px;
+     color: black;
+     border: 0;
+     outline: none;
+     box-shadow: 0 5px 5px gray ;
+}
